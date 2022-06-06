@@ -1,0 +1,238 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(images/bg.png);
+	margin: 15px;
+	
+}
+
+#container{
+	background: #ede9cc url(imagens/bg-container.png) top center repeat-y;
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1250px;
+}
+
+/*config topo*/
+
+#topo{
+	position: relative;
+	background: #dbcd87;
+	height: 15.4em;
+	min-height: 250px;
+}
+#area-logo{
+	background: url(imagens/topo-imagem-principal.png) no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 250px;
+	z-index: 1;
+}
+
+.logo a{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	z-index: 3;
+	background: url(imagens/logo.png) no-repeat;
+	width: 151px;
+	height: 66px;
+	text-indent: -9000px;
+}
+
+#area-menu{
+	background:url(imagens/topo-imagem-lateral.png) no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 510px;
+	height: 250px;
+	z-index: 2;
+}
+#conteudo-menu{
+	font-size: 15px;
+	margin-left:40px;
+	margin-right:25px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-top: 1px solid #b5ab56;
+	border-bottom: 1px solid #b5ab56;
+	padding: 9px;
+	color: #8b8448;
+}
+#conteudo-menu a{
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 8px;
+	background:#a29750;
+	color: #fff5b0;
+	padding: 5px 10px;
+}
+
+#navegacao{
+	height: 11em;
+	width: 16em;
+}
+
+#navegacao ul li{
+	margin-left:100px;
+	padding: 5px;
+	width: 100px;
+	list-style-type: none;
+
+}
+
+#navegacao a{
+	text-decoration: none;
+	color: black;
+}
+
+#area-depoimento a{
+	background: url(imagens/depoimento.png) no-repeat;
+	position: absolute;
+	bottom: 1em;
+	right: 2em;
+	height: 10em;
+	width: 15em;
+	z-index: 4;
+	text-indent: -9000px;
+}
+
+#navegacao a:hover{
+	background: #fdf6be;
+}
+
+#navegacao a:link, a:visited{
+	color:#b10333;
+	padding: 2px;
+}
+
+/*config conteudo*/
+
+#primario{
+	width:48%;
+	height:36em;
+	float: left;
+	margin-top: 10px;
+	background: #efe9cb url(imagens/bg-area-principal.png) repeat-x top;
+}
+
+#primario h3{
+	margin: 30px;
+	color:#7d7640;
+}
+
+#primario p{
+	margin: 10px;
+	text-align: justify;
+}
+
+#secundario{
+	width:52%;
+	height:36em;
+	float: right;
+	margin-top: 10px;
+	background: #dbd8b6 url(imagens/bg-area-lateral.png) repeat-x top;
+}
+
+#secundario :hover{
+	background: #f6f3d6;
+	cursor: pointer;
+}
+
+#caixa-secundario{
+	position: relative;
+	top: 8px;
+	height: 9em;
+	width: 39em;
+	margin: 8px;
+	padding: 8px;
+	background: url(imagens/bg-linha.gif) repeat-x bottom;
+	padding-bottom: 15px;
+	padding-top: 20px;
+
+
+}
+
+#caixa-secundario img{
+	width: 250px;
+	height: 145px;
+}
+
+#caixa-secundario a.titulo{
+	position: absolute;
+	top: 30px;
+	text-decoration: none;
+	margin-left: 15px;
+	padding-right: 14em;
+	text-align: justify;
+	color: #615b2d;
+	font-size: 1.1em;
+	background: url(imagens/ornamento.png) no-repeat right;
+	margin-right: 5px;
+}
+
+
+#caixa-secundario a.conteudo{
+	position: absolute;
+	top: 60px;
+	text-decoration: none;
+	padding-left: 10px;
+	text-align: justify;
+	margin-left: 7px;
+	margin-right: 25px;
+	font-size: 0.8em;
+	color: #000;
+}
+
+#caixa-secundario a{
+	color: black;
+}
+
+
+
+/*rodapé*/
+
+#container-rodape{
+	clear: both;
+	padding: 16px;
+	background: #fff url(imagens/bg.rodape.png) repeat-x top;
+	color: #7d7640;
+	text-align: center;
+}
+
+#rodape{
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
